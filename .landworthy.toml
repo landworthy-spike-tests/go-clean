@@ -1,0 +1,6 @@
+version = 1
+stack = "go"
+install = "go mod download"
+battery = "go test ./..."
+working_directory = "."
+queue_on = "label"
